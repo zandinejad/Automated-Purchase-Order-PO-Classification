@@ -19,8 +19,6 @@ Key columns used:
 - `account_name_clean`: cleaned account label.
 - Additional engineered features: `amount`, `keyword_rent`, `keyword_salary`.
 
-![dataset-gif](https://media.giphy.com/media/3o6ZsZDQhox1aZg10I/giphy.gif)
-
 ---
 
 ## Methodology 🛠️
@@ -39,8 +37,6 @@ Key columns used:
    - Logistic Regression with TF-IDF features.
    - XGBoost Classifier with TF-IDF + engineered features.
    - DistilBERT Transformer for sequence classification.
-
-![workflow-gif](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
 
 ---
 
@@ -62,8 +58,6 @@ Key columns used:
 - Handles text natively without manual feature engineering.
 
 **Classification reports** were generated for all models, showing precision, recall, and F1-score per account category.
-
-![performance-gif](https://media.giphy.com/media/26xBukhFZyn1v3Cuk/giphy.gif)
 
 ---
 
